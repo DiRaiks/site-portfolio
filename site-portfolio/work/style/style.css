@@ -69,12 +69,8 @@ body {
 }
 
 header {
-  background-image: url(../img/laptop-1031224_1920.jpg);
-  background-size: cover;
-  background-position: center;
   height: 605px;
   width: 100%;
-  /*margin-bottom: -20px;*/
   padding: 0;
 }
 
@@ -104,8 +100,9 @@ article {
 }
 
 .resume {
-  background-color: rgb(222, 222, 222);
+  /*background-color: rgb(222, 222, 222);*/
   padding: 20px;
+  color: white;
 }
 .resume_h2 {
   text-align: center;
