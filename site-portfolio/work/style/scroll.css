@@ -27,7 +27,7 @@ background: url(../img/computer-1990907_1920.jpg) center 0 no-repeat;
 #about {
   background: url(../img/computer-1990907_1920.jpg) center 0 repeat fixed;
    /*min-height: 1000px;*/
-  height: 1000px;
+  height: 700px;
   margin: 0 auto;
   width: 100%;
   max-width: 1920px;
@@ -36,6 +36,55 @@ background: url(../img/computer-1990907_1920.jpg) center 0 no-repeat;
   box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
 #about article {
+  height: 458px;
+  position: absolute;
+  text-align: center;
+  /*top: 300px;*/
+  width: 100%;
+}
+
+
+
+#about_1 {
+background: url(../img/background-992850_1280.png) center 0 no-repeat;
+ /*min-height: 1200px;*/
+}
+#about_1 {
+  background: url(../img/background-992850_1280.png) center 0 repeat fixed;
+   /*min-height: 1000px;*/
+  height: 500px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+#about_1 article {
+  height: 458px;
+  position: absolute;
+  text-align: center;
+  /*top: 300px;*/
+  width: 100%;
+}
+
+
+
+#about_2 {
+  background: url(../img/laptop-1031224_1920.jpg) center 0 repeat fixed;
+ /*min-height: 1200px;*/
+}
+#about_2 {
+  background: url(../img/laptop-1031224_1920.jpg) center 0 repeat fixed;
+
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+#about_2 article {
   height: 458px;
   position: absolute;
   text-align: center;
