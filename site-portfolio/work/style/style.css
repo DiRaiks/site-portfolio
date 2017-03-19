@@ -1,10 +1,51 @@
+@font-face {
+  font-family: 'PT Serif', serif;
+  src:  url('../fonts/PT_Serif/PT_Serif-Web-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PT Serif', serif;
+  src: url(../fonts/PT_Serif/PT_Serif-Web-Bold.ttf);
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+font-family: 'Raleway';
+src: url(../fonts/Raleway/Raleway-Regular.ttf.ttf);
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: url(../fonts/Raleway/Raleway-SemiBold.ttf);
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: url(../fonts/Raleway/Raleway-Bold.ttf);
+  font-weight: bolder;
+  font-style: normal;
+}
+@font-face {
+font-family: 'Open-sans';
+src: url(../fonts/Open_sans/OpenSans-Regular.ttf);
+}
+
+
 body {
   margin: 0;
 }
 .mask {
-    background-color:rgba(182, 182, 182, 0.39);
+    background-color:rgba(222, 222, 222, 0.3);
     height:100%;
     width:100%;
+}
+*{
+  box-sizing: border-box;
+  font-family:serif, 'Open-sans';
+
 }
 
 .logo img {
@@ -32,6 +73,7 @@ body {
 .menu {
   flex:1;
   margin: 30px;
+  z-index: 11;
 }
 /*Навигация*/
 .head_menu {
@@ -80,16 +122,19 @@ body {
   text-shadow: #fff 1px 0 0px, #fff 0 1px 0px, #fff -1px 0 0px, #fff 0 -1px 0px;
   text-align: center;
   text-transform: uppercase;
-  margin-top: 100px;
   display: inline-block;
   text-align: center;
+  border: 7px solid rgb(38, 38, 38);
+  padding: 0 100px;
+  font-weight: bold;
 }
 .head_mid h1 {
   font-size: 40px;
+  border-bottom: 2px solid black;
 }
 
 header {
-  height: 605px;
+  /*height: 605px;*/
   width: 100%;
   padding: 0;
 }
@@ -103,7 +148,7 @@ article {
   background-color: white;
 }
 .works img {
-  width: 400px;
+  width: 90%;
 }
 
 .collums {
@@ -121,15 +166,18 @@ article {
 
 .resume {
   /*background-color: rgb(222, 222, 222);*/
-  padding: 20px;
-  color: white;
+  padding: 50px;
+  color: black;
+
 }
 .resume_h2 {
   text-align: center;
   padding-bottom: 40px;
+  font-size: 22px;
 }
 .resume .collums h3 {
   text-align: center;
+  font-size: 20px;
 }
 .resume .collums h4{
   display: inline-block;
@@ -142,17 +190,19 @@ article {
   text-align: right;
   border-right: 1px solid black;
   padding-right: 20px;
+  background-color: rgba(219, 219, 219, 0.8)
 }
 .resume .collums_2 {
   text-align: left;
   border-left: 1px solid black;
   padding-left: 20px;
   margin-left: -1px;
+  background-color: rgba(219, 219, 219, 0.8)
 }
 
 .works {
   margin: 0;
-  padding: 20px;
+  padding: 50px;
 }
 .works_h2 {
   text-align: center;

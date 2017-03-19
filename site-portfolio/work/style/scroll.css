@@ -3,7 +3,7 @@ background: url(../img/laptop-1031224_1920.jpg) center 0 repeat fixed;
  /*min-height: 1200px;*/
 }
 #about {
-background: url(../img/computer-1990907_1920.jpg) center 0 no-repeat;
+background: url(../img/web-design-2038872_1920.jpg) center 0 no-repeat;
  /*min-height: 1200px;*/
 }
 
@@ -17,15 +17,9 @@ background: url(../img/computer-1990907_1920.jpg) center 0 no-repeat;
   max-width: 1920px;
   position: relative;
 }
-#home header {
-  height: 458px;
-  position: absolute;
-  text-align: center;
-  /*top: 300px;*/
-  width: 100%;
-}
+
 #about {
-  background: url(../img/computer-1990907_1920.jpg) center 0 repeat fixed;
+  background: url(../img/web-design-2038872_1920.jpg) center 0 repeat fixed;
    /*min-height: 1000px;*/
   height: 700px;
   margin: 0 auto;
